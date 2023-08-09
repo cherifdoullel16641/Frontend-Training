@@ -1,0 +1,28 @@
+*,::before,::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+main {
+    font-size: 10px;
+}
+main h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: crimson;
+}
+main p {
+    font-size: 2rem;
+}
+main button {
+    padding:1rem; 
+}
+@media (max-width: 800px) {
+    html{
+        font-size: 50%;
+    }
+    
+}

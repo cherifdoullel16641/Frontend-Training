@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>les formulaires</title>
+      <link rel="stylesheet" href="form.css">
+</head>
+<body>
+      <form action="">
+            <fieldset>
+                  <legend>Choisissez votre pays</legend>
+                  <label for="canada">Canada</label>
+                  <input type="radio" id="canada" name="pays" value="canada">
+                  <label for="france">France</label>
+                  <input type="radio" id="france" name="pays" value="france">
+                  <label for="usa">USA</label>
+                  <input type="radio" id="usa" name="pays" value="usa"> <br><br>
+            </fieldset>
+            
+            <label for="age">Entrez votre age</label><br><br>
+            <input type="text" id="age"><br><br>
+            <label for="taille">Choisir une taille</label>
+            <select name="taille" id="taille">
+                  <option>Choississez une taille</option>
+                  <option value="XL">XL</option>
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XXL">XXl</option>
+            </select>
+            <button type="submit">Envoyez votre formulaire</button>
+      </form>
+</body>
+</html>

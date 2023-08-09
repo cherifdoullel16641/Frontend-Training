@@ -1,0 +1,25 @@
+h1::first-letter {
+      color: crimson;
+      font-size: 150px;
+}
+h1::first-line {
+      font-style: italic;
+}
+p::before {
+      content: ''; /*premet d'ajouter de contenu*/
+      display: block;
+      width: 50px;
+      height: 50px;
+      background: crimson;
+}
+p::after {
+      content: '';
+      display: block;
+      width: 95px;
+      height: 5px;
+      background: crimson;
+}
+.txt::selection {
+      background:green; /*Colorie le texte selectionné 
+      */
+}

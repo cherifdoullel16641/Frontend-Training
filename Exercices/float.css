@@ -1,0 +1,25 @@
+.container {
+      background: orange;
+      width: 500px;
+      height: auto;
+}
+.container::after {
+      content: '';
+      display: block;
+      clear: both; /*Ce bloc permet de debugger le float car il ne reconnait pas la hauter avec auto*/
+}
+.bloc {
+      width: 100px;
+      height: 100px;
+}
+.b1 {
+      background: green;
+      float: left;
+}
+/* p {
+      clear: left; float et left doivent avoir la meme valeur!
+} */
+.b2 {
+      background: red;
+      float: right;
+}

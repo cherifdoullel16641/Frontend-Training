@@ -1,0 +1,17 @@
+ body {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+}
+.box {
+      width: 250px;
+      height: 300px;
+      /* border: 1px solid #333; */
+      margin: 10px;
+      box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5); /*inset ombres internes*/
+}
+h2 {
+      text-align: center;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.9); 
+}
+/* l'attribut inset permet de mettre les ombres à l'interieur par defaut les ombres sont externes*/

@@ -1,0 +1,20 @@
+body {
+      background: #333;
+      margin: 0;
+     /* height: 100vh; body de base n'a pas de hauteur*/
+}
+.box {
+      margin: 0 auto;
+      width:300px; /*les vw portent height de base grandissent à la largeur */
+      height:300px; /* vh et % :le parent n'a pas de hauteur %ne marche alors que vh fonctionne tjrs */
+      border: 50px solid crimson;
+      background: crimson;
+}
+.parent {
+      font-size: 5px;
+}
+h3 {
+      color: #f1f1f1;
+      /* font-size: 50px; */
+      font-size: 5em; /*1 rem = 16px ||| 1em = 5px*/
+}

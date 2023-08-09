@@ -1,0 +1,22 @@
+.wrap {
+      width: 600px;
+      height: 600px;
+      background-color: darkturquoise;
+      margin: 0px auto;
+      display: grid;
+      /* padding-top: 200px; */
+}
+.box1, .box2, .box3 {
+      width: 600px;
+      height: 200px;
+}
+.box1 {
+      background-color: palevioletred;
+      /* margin-top: 100px; */
+}
+.box2 {
+      background-color: thistle;
+}
+.box3 {
+      background-color: crimson;
+}

@@ -1,0 +1,31 @@
+*,::before,::after {
+      box-sizing: border-box;
+      padding: 0%;
+      margin: 0%;
+}
+body {
+      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 600px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+}
+.cercle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: orange;
+      background: url('https://images.unsplash.com/photo-1517649281203-dad836b4abe5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+      background-size: cover; /*Garder la qualité de l'image*/
+      background-position: -50px 0; /*naviguer sur l'image*/
+      margin: 0px 25px 25px 0px; /*O haut 25 droite et bas O gauche*/
+      float: left; /*On le sort du flux vers la gauche*/
+      shape-outside: circle(); /*pour que ça flotte autour du cercle*/
+}

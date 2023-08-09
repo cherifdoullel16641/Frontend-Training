@@ -1,0 +1,24 @@
+*,::before,::after {
+      box-sizing: border-box;
+      padding: 0%;
+      margin: 0%;
+}
+body {
+      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+      width:300px;
+      height: 300px;
+      background: orange;
+      transition: all 1.2s ease-in-out;
+      /* -webkit-transition: none;
+      -moz-transition: none;
+      -o-transition: none;
+      -ms-transition:none;
+ 
+Pour forcer le navigateur à utiliser la transition si elle n'existe pas pardefaut */
+}
+.container:hover {
+      transform: rotate(720deg);
+}

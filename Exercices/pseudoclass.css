@@ -1,0 +1,39 @@
+body {
+      background:white;
+      margin: 0;
+}
+.box {
+      width: 300px;
+      height: 300px;
+      background: crimson;
+}
+/* .box:active {
+      background: salmon;
+}  Quand on clique et on reste  il est +prioritaire par rapport à hover*/
+/*.box:hover {
+      background: violet; /*Quant on survole sur le box*/
+/* input:focus {
+      background: lightblue; /*utilisé avec les input au moment d'écrire*/
+ input:checked {
+      background:blue;
+      width: 250px;
+      height: 250px;
+ }
+ a:visited {
+      color: blue;
+ }
+ li:last-child {
+      background: #000;
+ }
+ li:nth-child(odd) {
+      background: lightblue; /*pour les elemetns de rang impaires*/
+ }
+ li:nth-child(even) {
+      background: yellowgreen; /*pour les elements de rang paires*/
+ }
+ .item:nth-child(8) {
+      background: blueviolet; /*spécifie le huitième element*/
+ }
+ p:not(.item2) {
+      color: crimson; /*le 2em paragraphe ne sera pas coloriés en rouge*/
+ }

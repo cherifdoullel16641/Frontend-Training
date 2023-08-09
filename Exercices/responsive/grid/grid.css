@@ -1,0 +1,45 @@
+*,::before,::after {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    height: 100vh;
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    background-color: #eee;
+    width: 90%;
+    margin: 30px auto;
+
+    display: grid;
+    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
+}
+.items { 
+    padding: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item1 {
+    background-color: pink; 
+}
+.item2 {
+    /* align-self: end; 
+    justify-self: end; */
+    background-color:teal;
+}
+.item3 {
+    background-color: yellowgreen;
+}
+.item4 {
+    background-color: crimson;
+}
+.item5 {
+    background-color: goldenrod;
+}
+.item6 {
+    background-color: indianred;
+}

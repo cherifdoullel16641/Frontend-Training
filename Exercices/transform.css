@@ -1,0 +1,23 @@
+*,::before,::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+body {
+      background: #333;
+}
+.box {
+      width: 300px;
+      height: 300px;
+      margin: 20px;
+      background: salmon;
+      /* Technique tres interessante ||| la boite sera parfaitement centrée */
+      /* position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); */
+      /* transform: translateX(150px) ou translateY(150px);suivant l'axe X que se fera le déplacement */
+      /* transform: rotate(350deg); pour faire une rotationn */
+      /* transform: scale(0.5);Pour diminuer ou augmenter la boite [On peut combiner les valeurs de transform]*/
+      transform: skew(50deg,20deg); /*skew() pour faire des distorsions de X et Y*/
+}

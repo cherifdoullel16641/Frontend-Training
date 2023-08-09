@@ -1,0 +1,12 @@
+*,::before,::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+.box {
+      width: 300px;
+      height: 200px;
+      background: salmon;
+      overflow: scroll; /*Tout le text qui dépasse sera caché avec "auto" ça scrolle */
+      overflow: visible; /*ce qui dépasse sera vue en bas*/
+}

@@ -1,0 +1,27 @@
+body {
+      display: flex; /*Alignement cote à cote*/
+      justify-content: center; /*Alignement au centre*/
+      background: #ffd;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.cercle {
+      flex-shrink: 0; /*Assemblez les couleurs entre elles*/
+      color: #fff;
+      padding: 90px; /*C'est pour le remplissage*/
+      width: 180px;
+      height: 180px;
+      margin-right: -35px; /*pour qu'il se chauvausse | se raprocher*/
+      mix-blend-mode: multiply; /*gestion de la melange des couleurs : les couleurs se mutiplient*/
+}
+.c1 {
+      background: #ffc30f;
+      border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+}
+.c2 {
+      background: #ff5733;
+      border-radius: 73% 27% 25% 75% / 74% 64% 36% 26% ;
+}
+.c3 {
+      background: #8d3758;
+      border-radius: 4% 96% 25% 75% / 53% 48% 52% 47% ;
+}

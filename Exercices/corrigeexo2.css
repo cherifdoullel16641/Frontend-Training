@@ -1,0 +1,31 @@
+body {
+      background: #18181E;
+      font-family: sans-serif;
+}
+h1 {
+      text-align: center;
+      font-weight: 300;
+      color: #f1f1f1;
+}
+.btn {
+      display: block;
+      margin: 0 auto;
+      font-size: 18px;
+      font-weight: 300px;
+      color: #333;
+      padding: 25px 80px;
+      background: rgb(255,209, 123);
+      outline: none;
+      border: none;
+      position: relative;
+      box-shadow: 0 6px #efa424;
+      border-radius: 20px;
+}
+.btn:hover {
+      box-shadow: 0 4px #efa424;
+      top: 2px;
+}
+.btn:active {
+      box-shadow: 0 0 #efa424;
+      top: 6px;
+}

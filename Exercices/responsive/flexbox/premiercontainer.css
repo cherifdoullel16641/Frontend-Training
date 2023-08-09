@@ -1,0 +1,45 @@
+*,::before,::after {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 70%;
+    height: 700px;
+    background: midnightblue;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column;
+    align-content: flex-start; */
+    flex-flow: wrap column;
+    /* justify-content: center;  
+    align-items: center;      
+    flex-direction: row-reverse; */
+    
+}
+.item {
+    width: 150px;
+    height: 150px;
+    background: gold;
+    margin: 5px;  
+    /* flex: 0 1 150px; */
+    /* grow shrink et bases combinees */
+}
+.item:nth-child(1) {
+    background: lightblue;
+    /* align-self: flex-end; aligner à la fin de la boite */
+}
+.item:nth-child(2) {
+    background: lightgreen;
+    order: 4;
+    /* margin: auto; */
+}
+.item:nth-child(3) {
+    background: salmon ;
+    /* align-self: flex-end;
+    margin-left: auto; */
+}

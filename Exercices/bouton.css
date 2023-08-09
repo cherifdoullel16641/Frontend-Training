@@ -1,0 +1,23 @@
+ body {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+}
+.btn {
+ display: inline-block;
+ text-align: center;
+ padding: 10px 15px;
+ cursor: pointer;
+ font-size: 22px;
+ border-radius: 5px;
+ background-color: #007bff;
+ color: aliceblue;
+ margin: 10px;
+}
+button {
+      border: none; /* pas de bordure*/
+      outline: none; /* Enlever le bordures de boutons par defaut*/
+}
+a {
+      text-decoration: none; /*Enlever le soulignement des liens*/
+}

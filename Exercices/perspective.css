@@ -1,0 +1,18 @@
+*,::before,::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+body {
+      background: #333;
+      perspective: 100px; /*On renseigne une valeur au parent de box avant de faire une perspective*/
+      perspective-origin: top left; /*Pour gérer la perspective juste en haut et gauche*/
+}
+.box {
+      width: 300px;
+      height: 300px;
+      margin: 20px;
+      background: salmon;
+      transform: rotate(45deg); 
+      transform-origin: 20px 10px; /*La boite tourne maintenant par rapport au centre*/
+}

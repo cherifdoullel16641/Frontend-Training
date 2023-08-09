@@ -1,0 +1,21 @@
+*,::before,::after {
+      box-sizing: border-box;
+      padding: 0%;
+      margin: 0%;
+}
+body {
+      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+      font-size: 65px;
+      text-transform: uppercase;
+      font-weight: 700;
+      background-image: linear-gradient(to right,#373737,#c0b283);
+      -webkit-background-clip: text; /*ç a marche maintenant*/
+      background-clip: text; /*Pour garder le texte et faire disparaitre le fond*/
+      color: transparent;
+      text-align: center;
+      letter-spacing: 4px;
+      padding-top: 100px;
+}
