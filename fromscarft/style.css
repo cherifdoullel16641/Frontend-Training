@@ -1,0 +1,148 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap');
+
+*/
+@font-face {
+    font-family: 'font-1';
+    src: url(assets/Poppins-Italic.ttf);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'font-1' , sans-serif;
+    background:url(images/sunset.jpg) no-repeat right/cover;
+    /* height: 100vh; */
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    color: darkblue;
+    text-shadow: 5px 0 0 rgba(4, 160, 160, 0.41);
+    text-align: center;
+    /*font-family: 'poppins',sans-serif;*/
+}
+/* LES BOITES EN CSS */
+main{
+    background: #fff;
+    width: 85%;
+    min-height: 500px;
+    margin-top: 10px auto;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 0 blue;
+    height: 700px;
+}
+.positionning {
+    border: 2px solid skyblue;
+    padding: 20px;
+    margin-top: 15px;
+    position: relative;
+}
+h2{
+    margin: 0;
+}
+#circle{
+    height: 50px;
+    width: 50px;
+    background: rgb(122, 189, 216);
+    padding: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: 110px;
+    box-shadow: 0 2px 12px 5px  rgba(51, 51, 51, 0.13);
+    z-index: 1;
+}
+#rectangle{
+    height: 15px;
+    width: 25%;
+    background:slateblue;
+    padding: 20px;
+    position:absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}   
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    font-size: 0.5rem;
+    height: 160px;
+    width: 160px;
+    background: turquoise;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.grid-container{
+     display: grid;
+     grid-template-columns: 30% 70%;
+     padding: 20px;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "i1 i2"
+    "ta ta"
+    "bt bt";
+}
+.img{
+    text-align: center;
+}
+    input,textarea{
+        margin: 5px;
+        height: 45px;
+        border: 1px solid darkblue;
+        padding:10px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        font-family: "font-1";
+    }
+    #firstname{
+        grid-area: i1;
+    }
+    #surname{
+        grid-area: i2;
+    }
+    textarea{
+        grid-area: ta;
+        resize: none;
+    }
+input [type="Submit"]{
+    grid-area: bt;
+    cursor: pointer;
+    background: cyan;
+    transition: 0.4s;
+}
+input [type="submit"]:hover {
+    background: darkblue;
+    color: #fff;
+}
+/* RESPONSIVE OF FORMULAR*/
+@media  screen and (max-width:1000px){
+    .grid-container{
+        display: block;
+    }   
+}
+@media  screen and (max-width:780px) {
+    form{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "i1"
+        "i2"
+        "bt";
+    }
+    }
+

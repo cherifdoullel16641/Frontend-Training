@@ -1,0 +1,6 @@
+Hello from scraft , i am learning!!!
+  <h1> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+  <p> Ad dolores quasi optio delectus quibusdam hic cum porro 
+  earum sint illum, facilis quos,
+  illo quisquam error repellendus
+   aliquam mollitia atque ab.</p>
